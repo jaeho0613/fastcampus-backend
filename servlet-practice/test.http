@@ -1,0 +1,11 @@
+### 더하기
+GET localhost:8080/calculate?operand1=10&operator=%2b&operand2=5
+
+### 빼기
+GET localhost:8080/calculate?operand1=10&operator=-&operand2=5
+
+### 나누기
+GET localhost:8080/calculate?operand1=10&operator=%2f&operand2=5
+
+### 곱하기
+GET localhost:8080/calculate?operand1=10&operator=*&operand2=5
