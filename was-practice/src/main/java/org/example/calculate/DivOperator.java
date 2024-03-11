@@ -4,7 +4,7 @@ public class DivOperator implements NewArithmeticOperator {
 
     @Override
     public boolean supports(String operator) {
-        return "/".equals(operator);
+        return "div".equals(operator);
     }
 
     @Override
