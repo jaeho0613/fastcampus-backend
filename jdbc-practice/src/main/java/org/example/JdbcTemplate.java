@@ -17,7 +17,7 @@ public class JdbcTemplate {
             pss.setter(pstmt);
 
             pstmt.executeUpdate();
-            
+
         } finally {
             if (pstmt != null) {
                 pstmt.close();
@@ -43,7 +43,7 @@ public class JdbcTemplate {
 
             Object obj = null;
             if (rs.next()) {
-               return rowMapper.map(rs);
+                return rowMapper.map(rs);
             }
 
             return obj;
