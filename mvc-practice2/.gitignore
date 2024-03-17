@@ -1,0 +1,6 @@
+.gradle
+.idea
+gradle
+out
+tomcat.8080
+classes
